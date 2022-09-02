@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Frank Wesdijk.contact</title>
+    <link rel="stylesheet" href="css/FrankWesdijk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="header-photo" src="images/header-photo.png" alt="header-photo">
+        <p id="header-first"> Frank </p>
+        <p id="header-second">Wesdijk</p>
+      </div>
+      <div class="right-section">
+
+          <form> <button class="home-button" formaction="index.html">
+            Home
+          </button>
+          </form>
+
+          <form> <button class="cv-button" formaction="mijncv.html">
+            CV
+          </button>
+          </form>
+
+          <form> <button class="contact-button" formaction="contact.html">
+            Contact
+          </button>
+          </form>
+
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="formulier">
+      <h1>Contactformulier</h1>
+      <br>
+
+
+	<form id=contactformulier action="https://formspree.io/f/xpzbveov"
+  method="POST">
+
+      <fieldset class="field-data">
+        <legend class="naw">Uw gegevens:</legend>
+        <table class="table-all">
+          <tbody>
+
+
+        <tr>
+          <td class="td-1"><label for="voornaam">Voornaam:</label></td>
+          <td class="td-2"><input type="text" id="voornaam" name="voornaam"></td>
+        </tr>
+
+        <tr>
+          <td class="td-1"><label for="achternaam">Achternaam:</label></td>
+          <td class="td-2"><input type="text" id="achternaam" name="achternaam"></td>
+        </tr>
+
+        <tr>
+          <td class="td-1"><label for="email">E-mailadres:</label></td>
+          <td class="td-2"><input type="email" id="email" name="email"></td>
+        </tr>
+
+        <tr>
+          <td class="td-1"><label for="tel">Telefoonnummer:</label></td>
+          <td class="td-2"><input type="tel" id="tel" name="tel"></td>
+        </tr>
+
+
+
+        </tbody>
+        </table>
+      </fieldset>
+
+      <br>
+
+      <fieldset class="field-data">
+        <legend class="bericht">Bericht</legend>
+        <table class="table-all">
+
+          <tbody>
+
+
+            <tr>
+              <td class="td-1"><label for="achtergrond">U kent mij via:</label></td>
+              <td class="td-2">
+                <select id="achtergrond">
+                  <option>Privé</option>
+                  <option>Zakelijk</option>
+                  <option>Social Media</option>
+                  <option>Via via</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-1"><label for="anders">Uw bericht:</label></td>
+              <td><textarea rows="5" cols="50" id ="anders" maxlength ="1500" placeholder="Max. 1500 tekens"></textarea></td>
+            </tr>
+
+
+        </tbody>
+        </table>
+      </fieldset>
+
+
+
+      <br>
+      <br>
+
+
+
+		<button class="verzendknop" type="submit" name="verzendknop">
+      <strong>Verzenden</strong>
+      </button>
+  </form>
+</div>
+      <br>
+      <br>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <p class="footer-text">
+      &#xA9; Alle rechten zijn voorbehouden. Niets van de op deze website gepubliceerde gegevens mag worden verveelvoudigd, opgeslagen in een geautomatiseerd gegevensbestand en/of openbaar worden gemaakt, in enige vorm of op enige wijze, hetzij elektronisch, mechanisch, door fotokopieën, opnamen of enige andere manier, zonder uitdrukkelijke voorafgaande schriftelijke toestemming van Frank Wesdijk. </p>
+    </div>
+  </body>
+</html>
